@@ -20,7 +20,7 @@ document.querySelector("form").addEventListener("submit", e => {
 document.querySelector("#no-long").addEventListener("click", () => {
   // TODO: FILTER out 'names' longer than 5 characters
   // HINT: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/length
-  const longNames = names.filter(name.length > 5)
+  const shortNames = names.filter(name.length < 6)
 
 });
 
