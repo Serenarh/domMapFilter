@@ -13,6 +13,8 @@ document.querySelector("form").addEventListener("submit", e => {
   e.preventDefault();
 
   // TODO: 'push' 'name.value' onto 'names'
+  names.push(name.value);
+
 });
 
 document.querySelector("#no-long").addEventListener("click", () => {
