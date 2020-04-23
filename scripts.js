@@ -27,6 +27,8 @@ document.querySelector("#no-long").addEventListener("click", () => {
 document.querySelector("#uppercase").addEventListener("click", () => {
   // TODO: Make all 'names' ALL CAPS!
   // HINT: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toUpperCase
+
+  const loudNames = names(name.toUpperCase());
 });
 
 document.querySelector("#get-random").addEventListener("click"() => {
