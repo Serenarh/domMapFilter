@@ -24,3 +24,10 @@ document.querySelector("#uppercase").addEventListener("click", () => {
 
   console.log(loudNames);
 });
+
+document.querySelector("#show-random").addEventListener("click", () => {
+  // TODO: Replace the 'textContent' for the 'p' tag with a random name from 'names'.
+  // HINT: Use 'getRandomIntInclusive' with a 'max' of 'names.length - 1'.
+  document.getElementById("p1").innerHTML =
+    names[getRandomIntInclusive(0, names.length - 1)];
+});
