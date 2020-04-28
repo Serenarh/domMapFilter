@@ -14,3 +14,13 @@ document.querySelector("form").addEventListener("submit", e => {
   names.push(name.value);
   console.log(names);
 });
+
+document.querySelector("#uppercase").addEventListener("click", () => {
+  // TODO: Make all 'names' ALL CAPS!
+  const loudNames = names.map(function(name) {
+    name = name.toUpperCase();
+    return name;
+  });
+
+  console.log(loudNames);
+});
